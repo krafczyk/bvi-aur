@@ -12,7 +12,8 @@ url="http://bvi.sourceforge.net"
 arch=(i686 x86_64)
 depends=('ncurses')
 license=("GPL")
-source=('bvi::git+https://github.com/krafczyk/bvi#rel_goto')
+source=('bvi::git+https://github.com/krafczyk/bvi#branch=rel_goto')
+md5sums=('SKIP')
 
 build ()
 {
